@@ -27,7 +27,7 @@
 <body>
 
 <div id="timer">01:00</div>
-<audio id="tick-sound" src="tick.mp3"></audio>
+<audio id="tick-sound" src="/tick.mp3"></audio>
 
 <script>
     let timeLeft = 60;
@@ -44,8 +44,8 @@
                 timerElement.style.color = 'red';
             }
 
-            if (timeLeft === 18 || timeLeft === 17 || timeLeft === 16 ||
-                timeLeft === 3 || timeLeft === 2 || timeLeft === 1) {
+            if (timeLeft === 19 || timeLeft === 18 || timeLeft === 17 ||
+                timeLeft === 4 || timeLeft === 3 || timeLeft === 2) {
                 tickSound.play();
             }
 
